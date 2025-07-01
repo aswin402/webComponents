@@ -47,4 +47,28 @@ $light-color: #f0f0f0;
     }
 
 }
+
+//navbar2
+.navbar2{
+    background-color: $primary-color;
+    padding-right: 15px;
+    padding-left: 15px;
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        .logo2{
+            font-size: 35px;
+            color: $light-color;
+            font-weight: 600;
+        }
+        li{
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+
+}
     

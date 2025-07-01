@@ -35,4 +35,26 @@
   display: inline-block;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.navbar2 {
+  background-color: #3469db;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar2 .nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.navbar2 .nav2 .logo2 {
+  font-size: 35px;
+  color: #f0f0f0;
+  font-weight: 600;
+}
+.navbar2 .nav2 li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
 }/*# sourceMappingURL=style.css.map */
