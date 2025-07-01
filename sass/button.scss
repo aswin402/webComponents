@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+@mixin btn(
+    $width : 100px,
+    $height : 50px,
+    $padding:  0px 0px 0px 40px,
+    $radius : 40px,
+    $btncolor : $light-color,
+    $btnbg: $dark-color,
+    $hbtncolor : $dark-color,
+    $hbtnbgcolor: $primary-color ){
+     width: $width;
+    height: $height;
+    padding: $padding;
+    border-radius: $radius;
+    align-content: center;
+    cursor: pointer;
+    color: $btncolor;
+    background-color: $btnbg;
+    margin-top: 40px;
+     &:hover{
+        color: $hbtncolor;
+        background-color: $hbtnbgcolor;
+    }
+}
+.btn1{
+   @include btn();
+}
+.btn2{
+    @include btn($radius,$light-color,$primary-color,$dark-color,$primary-color);
+}
+
+.btn3{
+    @include btn(100px,50px,0px 0px 0px 40px,50px,$light-color,$primary-color,$dark-color,$primary-color);
+}

@@ -38,9 +38,10 @@
 }
 
 .navbar2 {
+  margin-top: 20px;
   background-color: #3469db;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 10px 25px 40px 0px;
+  height: 80px;
 }
 .navbar2 .nav2 {
   display: flex;
@@ -49,12 +50,18 @@
   height: 60px;
 }
 .navbar2 .nav2 .logo2 {
+  padding-left: 50px;
   font-size: 35px;
   color: #f0f0f0;
   font-weight: 600;
 }
 .navbar2 .nav2 li {
   display: inline-block;
+  padding: 20px;
+  justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
+}
+.navbar2 .nav2 li a:hover {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
