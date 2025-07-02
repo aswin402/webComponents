@@ -1,3 +1,51 @@
+.btn1 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 40px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn1:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+
+.btn2 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 10px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #3469db;
+  margin-top: 40px;
+}
+.btn2:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+
+.btn3 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 100px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #3469db;
+  margin-top: 40px;
+}
+.btn3:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+
 * {
   margin: 0;
   padding: 0;

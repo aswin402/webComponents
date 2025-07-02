@@ -1,1 +1,10 @@
-/*# sourceMappingURL=cards.css.map */
+.card1 {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 30px;
+  background-color: #3469db;
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=cards.css.map */

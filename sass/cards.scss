@@ -1,0 +1,12 @@
+@import "variables.scss";
+
+.card1{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 30px;
+    background-color: $primary-color;
+    width: 200px;
+    height: 200px;
+}

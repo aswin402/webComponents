@@ -1,5 +1,6 @@
 @import "variables.scss";
 
+
 @mixin btn(
     $width : 100px,
     $height : 50px,
@@ -22,14 +23,42 @@
         color: $hbtncolor;
         background-color: $hbtnbgcolor;
     }
+    a{
+        text-decoration: none;
+        color: $btncolor;
+        &:hover{
+            color: $hbtncolor;
+        }
+
+    }
 }
 .btn1{
    @include btn();
 }
 .btn2{
-    @include btn($radius,$light-color,$primary-color,$dark-color,$primary-color);
+    @include btn($radius: 10px,$btncolor: $light-color,$btnbg: $primary-color,$hbtncolor: $dark-color,$hbtnbgcolor: $primary-color);
 }
 
 .btn3{
-    @include btn(100px,50px,0px 0px 0px 40px,50px,$light-color,$primary-color,$dark-color,$primary-color);
+    @include btn($radius: 20px 0px 20px 0px,$btncolor: $light-color,$btnbg: $primary-color,$hbtncolor: $dark-color,$hbtnbgcolor: $primary-color);
+}
+
+.btn4{
+   @include btn($radius:0px 20px 0px 20px);
+}
+
+.btn4{
+   @include btn($radius:0px 20px 0px 20px);
+}
+
+.btn5{
+   @include btn($radius:0px 20px 0px 20px);
+}
+
+.btn6{
+   @include btn($radius:0px 20px 0px 20px);
+}
+
+.btn7{
+   @include btn($radius:0px 20px 0px 20px);
 }

@@ -13,6 +13,13 @@
   color: #000000;
   background-color: #3469db;
 }
+.btn1 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn1 a:hover {
+  color: #000000;
+}
 
 .btn2 {
   width: 100px;
@@ -29,12 +36,19 @@
   color: #000000;
   background-color: #3469db;
 }
+.btn2 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn2 a:hover {
+  color: #000000;
+}
 
 .btn3 {
   width: 100px;
   height: 50px;
   padding: 0px 0px 0px 40px;
-  border-radius: 50px;
+  border-radius: 20px 0px 20px 0px;
   align-content: center;
   cursor: pointer;
   color: #f0f0f0;
@@ -44,4 +58,126 @@
 .btn3:hover {
   color: #000000;
   background-color: #3469db;
+}
+.btn3 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn3 a:hover {
+  color: #000000;
+}
+
+.btn4 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 0px 20px 0px 20px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn4:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+.btn4 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn4 a:hover {
+  color: #000000;
+}
+
+.btn4 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 0px 20px 0px 20px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn4:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+.btn4 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn4 a:hover {
+  color: #000000;
+}
+
+.btn5 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 0px 20px 0px 20px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn5:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+.btn5 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn5 a:hover {
+  color: #000000;
+}
+
+.btn6 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 0px 20px 0px 20px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn6:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+.btn6 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn6 a:hover {
+  color: #000000;
+}
+
+.btn7 {
+  width: 100px;
+  height: 50px;
+  padding: 0px 0px 0px 40px;
+  border-radius: 0px 20px 0px 20px;
+  align-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #000000;
+  margin-top: 40px;
+}
+.btn7:hover {
+  color: #000000;
+  background-color: #3469db;
+}
+.btn7 a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.btn7 a:hover {
+  color: #000000;
 }/*# sourceMappingURL=button.css.map */
